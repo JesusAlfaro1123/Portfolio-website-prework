@@ -3,7 +3,7 @@ body, html{
     margin: 0px;
 }
 body{
-    background-color: rgb(199, 61, 61);
+    background-color: rgb(80, 98, 201);
 }
 
 nav li{
@@ -11,7 +11,7 @@ nav li{
     margin: 20px;
 }
 nav ul{
-    background-color: rgb(153, 65, 65);
+    background-color: rgb(106, 93, 182);
     margin: 0;
     list-style-type: none;
     width: 100%;
