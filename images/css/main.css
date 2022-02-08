@@ -3,7 +3,7 @@ body, html{
     margin: 0px;
 }
 body{
-    background-color: rgb(80, 98, 201);
+    background-color: rgb(200, 205, 226);
 }
 
 nav li{
@@ -11,7 +11,7 @@ nav li{
     margin: 20px;
 }
 nav ul{
-    background-color: rgb(81, 57, 216);
+    background-color: rgb(19, 9, 70);
     margin: 0;
     list-style-type: none;
     width: 100%;
@@ -20,21 +20,25 @@ nav ul{
 }
 
 nav{
-    display: block;
-    color: white;
+    display: flex;
+    
+    color: rgb(204, 175, 175);
 }
 
 nav a{
-    color: thistle;
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(241, 234, 229);
     text-decoration: none;
 }
 
 nav a:hover{
-    color: white;
+    color: rgb(231, 216, 216);
 }
 
 .hero-image{
-    background-image: linear-gradient(rgba(179, 147, 147, 0.5), rgba(202, 148, 148, 0.5)), url(../baseball_game.jpg);
+    background-image: linear-gradient(rgba(247, 238, 238, 0.5), rgba(236, 230, 230, 0.5)), url(../baseball_game.jpg);
     height: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,6 +47,8 @@ nav a:hover{
 }
 
 .hero-text{
+    display: flex;
+    flex-direction: column;
     color: white;
     text-align: center;
     position: absolute;
@@ -51,12 +57,13 @@ nav a:hover{
     transform: translate(-50%,-50%);
 }
 
-#main{
+#main{ 
     width: 75%;
-    float: left;
+    float: right;
     height: 100%;
     padding-left: 20px;
     padding-top: 20px;
+   
 
 }
 
@@ -68,7 +75,7 @@ nav a:hover{
 }
 
 #profile-image{
-    width: 100px;
+    width: 200px;
     border-radius:50% ;
     border: 5px solid rgb(163, 27, 27);
 }
@@ -83,7 +90,7 @@ nav a:hover{
 }
 
 #profile h2{
-    display: inline;
+    display: flexbox;
 }
 
 #profile-details{
@@ -110,7 +117,7 @@ form{
     margin-top: 20px;
 }
 textarea, input{
-    background-color: lightgray;
+    background-color: rgb(192, 166, 166);
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
